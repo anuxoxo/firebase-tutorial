@@ -81,3 +81,7 @@ form.addEventListener('submit', (e) => {
         alert("Please enter something!");
     }
 })
+
+// // update vs set
+// db.collection('cafes').doc('id').update({ name: 'yeee' }); // update in existing
+// db.collection('cafes').doc('id').set({ name: 'yeee' }); // resets everything
